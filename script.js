@@ -1,4 +1,15 @@
 function shortcut(s1, s2) {
+	let a = s1.charAt(0)
+	let b = s2.charAt(0)
+	if(a && b){
+	return a+b
+	}else{
+		return ""
+	}
+	
+	
+	
+	
   // your code here
 }
 
